@@ -219,7 +219,8 @@ const ChatInterface = ({
                     }`}
                 >
                     {/* Slide-in Source Panel */}
-                    <div className="h-full w-80 bg-white border-l border-gray-200 shadow-lg z-40 relative">
+                    <div className="h-full w-[30vw] min-w-[320px] bg-white border-l border-gray-200 shadow-lg z-40 relative">
+
                         {/* Toggle Button inside the drawer, on the left */}
                         <button
                             onClick={() => setIsSourceOpen(prev => !prev)}
